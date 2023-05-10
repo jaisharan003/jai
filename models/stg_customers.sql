@@ -1,11 +1,11 @@
-with customer as (
+with customers as (
     
     select 
         customerid as customer_id,
         customerfirstname,
         customerlastname
 
-    from customers
+    from jaisharan.customers
 )
 
-select * from customer
+select * from customers
