@@ -1,0 +1,7 @@
+sources:
+  - name: jaisharan
+    database: raw
+    schema: jaisharan
+    tables:
+      - name: customers
+      - name: orders
