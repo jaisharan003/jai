@@ -3,7 +3,6 @@ version: 2
 sources:
   - name: jaisharan
     database: raw
-    schema: jaisharan
     tables:
       - name: customers
       - name: orders
