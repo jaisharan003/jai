@@ -6,5 +6,6 @@ with customers as (
         customerlastname
 
     from JAISHARAN.customers
+)
 
 select * from customers
