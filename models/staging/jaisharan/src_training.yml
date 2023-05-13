@@ -1,8 +1,9 @@
 version: 2
 
 sources:
-  - name: jaisharan
+  - name: JAISHARAN
     database: raw
+    schema: JAISHARAN
     tables:
       - name: customers
       - name: orders
