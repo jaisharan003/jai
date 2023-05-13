@@ -6,7 +6,7 @@ with orders as (
         orderdatetime as order_date,
         orderisdiscount
 
-    from {{ source('jaisharan', 'orders') }}
+    from {{ source('JAISHARAN', 'orders') }}
 )
 
 select * from orders

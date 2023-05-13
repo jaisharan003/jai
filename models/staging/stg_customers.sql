@@ -5,7 +5,7 @@ with customers as (
         customerfirstname,
         customerlastname
 
-    from {{ source('jaisharan', 'customers') }}
+    from jaisharan.customers
 )
 
 select * from customers
