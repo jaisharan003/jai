@@ -1,1 +1,0 @@
-SELECT customerid,customerfirstname from customers order by customerdob asc
