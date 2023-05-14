@@ -2,12 +2,15 @@ version: 2
 
 sources:
   - name: JAISHARAN
+    description: A clone of a Postgres application database.
     database: raw
     schema: JAISHARAN
     tables:
       - name: customers
+        description: Raw customers data.
         columns:
           - name: id
+            description: Primary key for customers.
             tests:
               - not_null
       - name: orders
