@@ -2,8 +2,10 @@ version: 2
 
 models:
   - name: stg_customers
+    description: select customer name and id
     columns: 
       - name: customer_id
+        description: primary key
         tests:
           - unique
           - not_null
