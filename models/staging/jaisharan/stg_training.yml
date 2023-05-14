@@ -15,6 +15,7 @@ models:
       - name: order_id
         tests:
       - name: orderisdiscount
+        description: "{{ doc('order_is_discount') }}"
         tests:
           - accepted_values:
               values:
